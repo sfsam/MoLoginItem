@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		922A06571DFB38BA00706C1E /* MoLoginItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 922A06551DFB38BA00706C1E /* MoLoginItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		922A065E1DFB397F00706C1E /* MoLoginItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 922A065D1DFB397F00706C1E /* MoLoginItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		922A06521DFB38BA00706C1E /* MoLoginItem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoLoginItem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		922A06551DFB38BA00706C1E /* MoLoginItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoLoginItem.h; sourceTree = "<group>"; };
 		922A06561DFB38BA00706C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922A065D1DFB397F00706C1E /* MoLoginItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoLoginItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				922A06551DFB38BA00706C1E /* MoLoginItem.h */,
+				922A065D1DFB397F00706C1E /* MoLoginItem.m */,
 				922A06561DFB38BA00706C1E /* Info.plist */,
 			);
 			path = MoLoginItem;
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922A065E1DFB397F00706C1E /* MoLoginItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +249,7 @@
 				INFOPLIST_FILE = MoLoginItem/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mowglii.MoLoginItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -265,6 +270,7 @@
 				INFOPLIST_FILE = MoLoginItem/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mowglii.MoLoginItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
